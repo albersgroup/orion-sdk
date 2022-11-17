@@ -1,0 +1,20 @@
+#The line following contains the Gimbal IP Address
+192.168.10.31
+
+# Following lines configure the forwareders for different messages.  Each
+# line should contain one statement.  It starts by identifying the type
+# of output that will be forwarded;
+#     -raw -  The raw GeolocateTelemetryCore_t structure as a payload.
+#     -status - A Status.json message.
+#     -track - A TrackJson message.
+#
+# Each forwarder is set to a IP address/port combination.
+
+ -raw=192.168.10.100:4443
+ -raw=192.168.10.101:4443
+ 
+ -status=192.168.10.100:4444
+ -status=192.168.10.101:4444
+
+ -track=192.168.10.100:4445
+ -track=192.168.10.101:4445

@@ -1,0 +1,22 @@
+There are 8 arguments.
+Found a Raw destination: -raw=192.168.10.100:4448
+-raw=192.168.10.100:4448
+Configuring Udp Sender -> 192.168.10.100:4448
+Found a Raw destination: -raw=192.168.10.101:4448
+-raw=192.168.10.101:4448
+Configuring Udp Sender -> 192.168.10.101:4448
+Found a Status destination: -status=192.168.10.100:4449
+-status=192.168.10.100:4449
+Configuring Udp Sender -> 192.168.10.100:4449
+Found a Status destination: -status=192.168.10.101:4449
+-status=192.168.10.101:4449
+Configuring Udp Sender -> 192.168.10.101:4449
+Found a Track destination: -track=192.168.10.100:4450
+-track=192.168.10.100:4450
+Configuring Udp Sender -> 192.168.10.100:4450
+Found a Track destination: -track=192.168.10.101:4450
+-track=192.168.10.101:4450
+Configuring Udp Sender -> 192.168.10.101:4450
+Looking for gimbal on 192.168.10.41...
+Failed to connect to 192.168.10.41
+
